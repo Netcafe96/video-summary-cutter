@@ -1,9 +1,6 @@
 streamlit
-moviepy
 faster-whisper
 torch
 numpy
 ffmpeg-python
-imageio
-imageio-ffmpeg
 pytube
