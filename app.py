@@ -1,4 +1,6 @@
 import streamlit as st
+import warnings
+warnings.filterwarnings("ignore")
 import tempfile
 import os
 from utils.transcript import transcribe_video
