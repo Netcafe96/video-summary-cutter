@@ -2,7 +2,10 @@ import ffmpeg
 import os
 
 def cut_clips(video_path, matches, output_dir="output_clips"):
+    if os.path.exists(output_dir) and not os.path.isdir(output_dir):
+        os.remove(output_dir)
     os.makedirs(output_dir, exist_ok=True)
+
     clip_paths = []
 
     for i, m in enumerate(matches):
