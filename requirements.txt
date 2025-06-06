@@ -1,6 +1,6 @@
 streamlit
 moviepy
-openai-whisper
+faster-whisper
 torch
 numpy
 ffmpeg-python
